@@ -1,5 +1,7 @@
 # Detecting Depression and Emotions Using Machine Learning
 
+## GitHub Link
+https://github.com/yujing1004/cs7641/tree/master/assignment1
 
 ## System requirements
 
