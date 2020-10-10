@@ -28,8 +28,8 @@ https://github.com/yujing1004/cs7641/tree/master/assignment2
 
 <img src="data-folder-structure.png" width="250" height="250">
 
-2. Click to open notebook `neural_network_weight_optimization.ipynb`
+2. Click to open notebook `neural_network_weight_optimization_emotion_detection.ipynb`
 3. Set the algorithm to use in the first cell under section `Optimize Neural Network weights by randomized optimization`
    * Specifically, this line of code: `algorithm = 'genetic_alg'  # CHNAGE ALGORITHM HERE`
-4. Run the notebook `neural_network_weight_optimization.ipynb`
-   * WARNING: `genetic_alg` takes many many hours to complete
+4. Run the notebook `neural_network_weight_optimization_emotion_detection.ipynb`
+   * WARNING: `genetic_alg` takes hours to complete
