@@ -3,6 +3,11 @@
 ## GitHub Link
 https://github.com/yujing1004/cs7641/tree/master/assignment3
 
+## Code Link
+1. SCADI: https://github.com/yujing1004/cs7641/blob/master/assignment3/unsupervised_learning_scadi.ipynb
+2. Emotion Detection: https://github.com/yujing1004/cs7641/blob/master/assignment3/unsupervised_learning_emotion_detection.ipynb
+
+
 ## System requirements
 
 1. Python 3 (The version I worked with is 3.8.5)
