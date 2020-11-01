@@ -7,7 +7,6 @@ https://github.com/yujing1004/cs7641/tree/master/assignment3
 1. SCADI: https://github.com/yujing1004/cs7641/blob/master/assignment3/unsupervised_learning_scadi.ipynb
 2. Emotion Detection: https://github.com/yujing1004/cs7641/blob/master/assignment3/unsupervised_learning_emotion_detection.ipynb
 
-
 ## System requirements
 
 1. Python 3 (The version I worked with is 3.8.5)
@@ -26,7 +25,7 @@ https://github.com/yujing1004/cs7641/tree/master/assignment3
 
 1. Download [data set for Emotion Detection](https://www.kaggle.com/debanga/facial-expression-recognition-challenge) to under the folder `cs7641/assignment3/data/emotion-detection/`, and unzip after downloading. The final layout should look like this:
 
-<img src="data-folder-structure.png" width="250" height="250">
+https://github.com/yujing1004/cs7641/blob/master/assignment3/data-folder-structure.png
 
 ### Run notebooks to reproduce results
 
