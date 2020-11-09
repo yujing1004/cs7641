@@ -42,10 +42,18 @@ class CliffWalkingEnv(discrete.DiscreteEnv):
         for s in range(nS):
             position = np.unravel_index(s, self.shape)
             P[s] = { a : [] for a in range(nA) }
-            P[s][UP] = self._calculate_transition_prob(position, [-1, 0])
-            P[s][RIGHT] = self._calculate_transition_prob(position, [0, 1])
-            P[s][DOWN] = self._calculate_transition_prob(position, [1, 0])
-            P[s][LEFT] = self._calculate_transition_prob(position, [0, -1])
+            # We're stuck in a terminal state
+            if self._cliff[tuple(position)] or (tuple(position) == (3,11)):
+                P[s][UP] = [(1.0, s, 0, True)]
+                P[s][RIGHT] = [(1.0, s, 0, True)]
+                P[s][DOWN] = [(1.0, s, 0, True)]
+                P[s][LEFT] = [(1.0, s, 0, True)]
+            # Not a terminal state
+            else:
+                P[s][UP] = self._calculate_transition_prob(position, [-1, 0])
+                P[s][RIGHT] = self._calculate_transition_prob(position, [0, 1])
+                P[s][DOWN] = self._calculate_transition_prob(position, [1, 0])
+                P[s][LEFT] = self._calculate_transition_prob(position, [0, -1])
 
         # We always start in state (3, 0)
         isd = np.zeros(nS)
